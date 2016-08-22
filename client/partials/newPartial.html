@@ -1,0 +1,12 @@
+<div class="top">
+  <a href="#/dashboard">Cancel</a>
+</div>
+<h3>Put the question and options here:</h3>
+<form ng-submit='createPoll()' ng-controller='dashboardController'>
+  <label>Question: </label><textarea rows="1" cols="80" ng-model='newPoll.question' placeholder="{{errors.question.message}}"></textarea><br>
+  <label>Option 1: </label><input type="text" ng-model='newPoll.opt1' placeholder="{{errors.opt1.message}}"><br>
+  <label>Option 2: </label><input type="text" ng-model='newPoll.opt2' placeholder="{{errors.opt2.message}}"><br>
+  <label>Option 3: </label><input type="text" ng-model='newPoll.opt3' placeholder="{{errors.opt3.message}}"><br>
+  <label>Option 4: </label><input type="text" ng-model='newPoll.opt4' placeholder="{{errors.opt4.message}}"><br>
+  <input type="submit" value="Create Poll">
+</form>

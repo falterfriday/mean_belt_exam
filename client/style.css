@@ -1,0 +1,38 @@
+* {
+    font-family: Arial;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.top {
+    float: right;
+}
+
+.top a {
+    text-decoration: none;
+}
+#user {
+    padding: 3rem;
+    text-align: center;
+    margin: auto;
+}
+#search {
+    width: 200px;
+    float: right;
+    margin: 7px 0px;
+}
+#search input {
+    width: 40%;
+}
